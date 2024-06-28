@@ -1,0 +1,32 @@
+.calculator {
+    background-image: url(download\ \(6\).jpg);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+    padding: 88px;
+    border: 1px solid;
+    max-width: 300px;
+    margin: 0 auto;
+    background-color: rgb(144, 144, 184);
+}
+
+.calculator input[type="text"] {
+    background-image: url(094-removebg-preview.png);
+    background-size: 40px 40px;
+    background-repeat: no-repeat;
+    background-position: left;
+    grid-column: span 4;
+    padding: 10px;
+    font-size: 20px;
+    text-align: right;
+    background-color: rgb(171, 129, 226);
+}
+
+.calculator button {
+    padding: 20px;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: indigo;
+}
+
+
